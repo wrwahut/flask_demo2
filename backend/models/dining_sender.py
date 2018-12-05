@@ -20,4 +20,4 @@ class Dining_sender(CRUD,db.Model):
     total_times = db.Column(db.Integer)
     shop_ids = db.Column(db.VARCHAR(255))
     build_ids = db.Column(db.VARCHAR(255))
-    zan_count = db.Column(db.Integer, default=0)
+    # zan_count = db.Column(db.Integer, default=0)
